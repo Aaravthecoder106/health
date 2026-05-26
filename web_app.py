@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from ai_logic import translate_jargon_ultimate
+from ai_logic import translate_medical_jargon
 
 # Page Configuration
 st.set_page_config(page_title="Medical Guided Gemini", page_icon=None, layout="wide")
