@@ -174,7 +174,7 @@ with col2:
             st.warning("Kripya kuch poocho ya report upload karo.")
         else:
             with st.spinner("Gemini AI report scan kar raha hai..."):
-                response = translate_medical_jargon(user_query, file_path, "1")
+                response = translate_medical_jargon(user_query, file_path)
             
             st.markdown("---")
             st.markdown("<h3 style='color: #00f2fe; letter-spacing: 1px; font-weight:600;'>ANALYSIS RESULT</h3>", unsafe_allow_html=True)
